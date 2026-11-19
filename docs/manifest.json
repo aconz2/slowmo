@@ -1,0 +1,18 @@
+{
+    "name": "Slowmo",
+    "icons": [
+        {
+            "src": "icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "display": "fullscreen",
+    "file_handlers": [{
+        "action": "/",
+        "accept": {
+            "video/*": [".mp4"]
+        }
+    }]
+}
